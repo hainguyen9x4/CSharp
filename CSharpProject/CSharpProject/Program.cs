@@ -12,11 +12,7 @@ namespace CSharpProject
         {
             
             ClassBReceiveEvent m_classB = new ClassBReceiveEvent();
-            //Console.ReadKey();
-            while (true)
-            {
-
-            }
+            Console.ReadKey();
         }
     }
 
