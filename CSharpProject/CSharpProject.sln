@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDelegate_timer", "Even
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{B731B7BD-40E1-4314-B5F1-5BDBDFECA87D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VarNoNameAndDynamic", "VarNoNameAndDynamic\VarNoNameAndDynamic.csproj", "{989EF97A-9F6C-40F9-AE0B-FA97471169F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{B731B7BD-40E1-4314-B5F1-5BDBDFECA87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B731B7BD-40E1-4314-B5F1-5BDBDFECA87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B731B7BD-40E1-4314-B5F1-5BDBDFECA87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989EF97A-9F6C-40F9-AE0B-FA97471169F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989EF97A-9F6C-40F9-AE0B-FA97471169F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989EF97A-9F6C-40F9-AE0B-FA97471169F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989EF97A-9F6C-40F9-AE0B-FA97471169F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
