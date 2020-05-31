@@ -9,6 +9,7 @@ namespace Delegate
     class Program
     {
         public delegate void PrintString(string strString);
+        delegate int IntToInt(int a,int b);
         static void Main(string[] args)
         {
             PrintString PrintString1, PrintString2, PrintString0;
@@ -20,8 +21,10 @@ namespace Delegate
             PrintString2("Message all");
             //
             PrintString0 = Print1;
-            string str = "deleagete";
-            //PrintString0 += (str);
+            Console.WriteLine("--------------------------------------------------------");
+            //IntToInt IntToInt1 = new IntToInt(Operation.Sum);
+            IntToInt IntToInt1 = Operation.Sum;
+            Console.WriteLine("Value "+IntToInt1(2, 3));
             Console.ReadKey();
         }
         public static  void Print1(string strMessage1)
